@@ -67,8 +67,6 @@ def show_info():
 
     #Image
 
-    size = 128, 128
-
     my_image = ImageTk.PhotoImage(Image.open(fileName))
     my_image_label = Label(image=my_image)
     my_image_label.place(x=58, y=77)
@@ -92,7 +90,6 @@ def show_info():
     Image_Size_Label = Label(root, text="", font=("Calibri", 13), fg="#000", bg="#fff")
     Image_Size_Label.place(x=610, y=252)
     Image_Size_Label.configure(text = Image_Size_MB)
-
 
 
 def clear():
