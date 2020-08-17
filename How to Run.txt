@@ -1,3 +1,4 @@
-1. Resize the image you plan to import in program to 360 x 360 pixels
+1. Install all the modules that are required (They are given in first lines of code)
+2. Resize the image you plan to import in program to 360 x 360 pixels
 
 Side Note : There are certain bugs in software, but they will be repaired in future updates.
